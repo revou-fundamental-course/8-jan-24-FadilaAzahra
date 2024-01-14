@@ -1,0 +1,58 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color:aliceblue;
+    background-color: crimson;
+}
+
+header h4 {
+    margin-top: 40px;
+    color:crimson;
+}
+
+header p {
+    margin-top: -10px; 
+    font-size:small;
+}
+
+
+.inputsection {
+    display: flex;
+    flex-direction: column;
+}
+
+#squareside {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 7px;
+    border: solid crimson;
+    padding: 10px;
+}
+
+#squareside:focus {
+    border: solid crimson;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 5px; 
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(99, 24, 24);
+}
+
+button:active {
+    background-color: rgb(58, 12, 12);
+    transform: translateY(3px);
+}
