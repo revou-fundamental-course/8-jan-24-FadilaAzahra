@@ -7,12 +7,12 @@ header {
 }
 
 header h1 {
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     background-color: crimson;
 }
 
 header h4 {
-    margin-top: 40px;
+    margin-top: 30px;
     color:crimson;
 }
 
@@ -26,6 +26,17 @@ header p {
     display: flex;
     flex-direction: column;
 }
+
+.gambar img {
+    width: 300px; 
+    height: auto;
+   }
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
 #squareside {
     margin-top: 10px;
@@ -56,3 +67,28 @@ button:active {
     background-color: rgb(58, 12, 12);
     transform: translateY(3px);
 }
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    text-align: flex;
+    font-size: 13px;
+  }
+  
+  .formula {
+    margin-bottom: 5px;
+  }
+  
+  .explanation {
+    letter-spacing: 0px; /* Adjust letter spacing as needed */
+  }

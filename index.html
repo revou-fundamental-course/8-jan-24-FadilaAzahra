@@ -11,16 +11,39 @@
           <h1>Kalkulator Luas dan Keliling Persegi</h1>
           <h4>Matematika Sekolah Dasar</h4>
           <p>Web ini sebagai media untuk membantu siswa lebih memahami dalam menghitung Luas dan Keliling Persegi</p>
+          
     </header>
 
+    <div class="gambar"> 
+        <img src="image.png">
+        <p>
+            <strong>Rumus keliling persegi:</strong>
+            <br>
+            K= 4 x s <br>
+            <strong>Rumus luas persegi:</strong>
+            <br>
+            L= s x s<br>
+            <strong>Keterangan*</strong>
+            <br>
+            K= keliling<br>
+            L= Luas<br>
+            s= sisi
+            </p>
+</div>
+    </div>
+
     <div class="inputsection">
-        <label for="squareside" id="lblSquareSide">Hitung Luas Persegi:</label>
+        <label for="squareside" id="lblSquareSide"><storng>Masukkan Nilai Sisi Persegi :</label>
         <input type="number" id="squareside"
     </div>
+
     <div class="buttons">
-        <button>Hitung</button>
-        <button>Reset</button>
+        <button id="calculate">Hitung</button>
+        <button id="clear">Bersihkan</button>
+    </div>
+    <div id="calculationResult"></div>
 
     </div>
 </body>
+<script src="js/script.js"></script>
 </html>
